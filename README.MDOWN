@@ -41,10 +41,6 @@ The code is divided into:
 
 - transformers.py : Different custom transformers to apply in pipelines.
 
-- security_cut.py : Operations on the size of the dataset. Execution:
-			- i : Name of dataset
-			- o : Name of dataset exported.
-			Example: python ./security_train.py -i dataset_test.csv -o dataset_test2.py
 
 The processed dataset with the different techniques is stored in a file called "dat_processed.csv".
 The anomaly identification results is stored in a new file called "results.csv", also a standard output is produced. 
